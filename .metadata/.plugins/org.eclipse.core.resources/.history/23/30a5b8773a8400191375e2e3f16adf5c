@@ -1,0 +1,14 @@
+package com.springcloud.main;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ProductMainEntryPoint {
+
+	public static void main(String[] args) {
+		String string = "Welcome to main service";
+		System.out.println(string);
+
+	}
+
+}
